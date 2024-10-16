@@ -1,0 +1,42 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: #211F23;
+    align-self: center;
+    border-radius: 100px;
+    padding: 12px;
+    margin-top: 20px;
+    font-weight: 600;
+
+    .textos-cabecalho {
+      margin-left: 18px;
+      align-self: center;
+
+
+      a{
+        margin-left: 10px;
+      }
+    }
+
+    .icons-cabecalho{
+      align-self: center;
+      margin-left: 40px;
+
+      .email{
+        margin-right: 23px;
+      }
+
+      img{
+        width: 24px;
+        align-self: center;
+        margin-left: 10px;
+      }
+
+
+    }
+
+    a {
+      text-decoration: none;
+      color: #B292FF;
+    }
+  }
