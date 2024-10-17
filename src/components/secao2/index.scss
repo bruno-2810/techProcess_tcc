@@ -1,22 +1,23 @@
-.Secao2{
+.Secao2 {
     display: flex;
     flex-direction: column;
     padding: 2px;
     align-items: center;
     color: white;
-   
-    .roxinho{
+
+    .roxinho {
         color: #7134FF;
         margin-bottom: 2px;
     }
-   
-    h1{
+
+    h1 {
         display: flex;
         flex-direction: column;
         text-align: center;
+        font-weight: 200;
     }
 
-    p{
+    p {
         display: inline-block;
         border: 1px solid white;
         width: 130px;
@@ -24,8 +25,7 @@
         padding: 16px;
         border-radius: 12px;
         margin-left: 145px;
-       margin: 12px;
+        margin: 12px;
     }
 
 }
-

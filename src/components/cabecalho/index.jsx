@@ -11,10 +11,10 @@ export default function Cabecalho() {
           <a href="#">Serviços</a>
         </div>
         <div className='icons-cabecalho'>
-          <img src="./solar_figma-bold-duotone.png" alt="" />
-          <img src="./mdi_github.png" alt="" />
-          <img src="./mdi_linkedin.png" alt="" />
-          <img src="./material-symbols_mail-rounded.png" alt="" className='email'/>
+          <img src="/images/solar_figma-bold-duotone.png" alt="" />
+          <img src="/images/mdi_github.png" alt="" />
+          <img src="/images/mdi_linkedin.png" alt="" />
+          <img src="/images/material-symbols_mail-rounded.png" alt="" className='email'/>
         </div>
       </div>
     )

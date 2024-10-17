@@ -12,7 +12,7 @@ export default function Secao1() {
                 <button><a href="#">Ver Serviços</a></button>
             </div>
             <div className='logo'>
-                <img src="./logo.png" alt="" className='logo-icon' />
+                <img src="/images/logo.png" alt="" className='logo-icon' />
             </div>
         </div>
     )
