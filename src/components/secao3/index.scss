@@ -1,0 +1,54 @@
+.secao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+    h1 {
+        margin-top: -1px;
+        color: #ffffff;
+    }
+
+
+    .titulo {
+        color: #7134FF;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 20px;
+
+        .html {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+        .css {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+        .js {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+        .node {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+        .react {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+        .figma {
+            border: 1px #7134FF solid;
+            border-radius: 10px;
+        }
+
+    }
+}
