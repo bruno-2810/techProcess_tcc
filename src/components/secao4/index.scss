@@ -1,0 +1,21 @@
+.Secao4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+    .js{
+        color: hsla(258, 100%, 54%, 1);
+
+    }
+
+    .node{
+        color: hsla(258, 100%, 60%, 1);
+
+    }
+
+    .react{
+        color: hsla(258, 100%, 79%, 1);
+
+    }
+}
