@@ -6,17 +6,15 @@
 
     span {
         color: #B292FF;
-
     }
 
     .paragrafo {
-        span{
+        span {
             font-weight: 800;
-            
+            color: white;
         }
         line-height: 28px;
         font-size: 18px;
-        
     }
 
     .textos {
@@ -32,16 +30,39 @@
     .logo {
         img {
             width: 500px;
-            
         }
     }
 
     button {
+            background-color: transparent; 
+            border: 2px solid #B292FF;
+            padding: 10px 20px;
+            color: #0c0c0d; 
+            cursor: pointer;
+            transition: all 0.3s ease; 
+
+            a {
+                text-decoration: none;
+                color: inherit; 
+            }
+
+            &:hover {
+            //  background-color: #fff; 
+                color: #211F23;
+                border: 2px solid #B292FF;
+                transform: scale(1.1); 
+                a{
+                    color: #fff;
+                }
+            }
+
+        
+
         background-color: #0c0c0d;
-        border: 1px solid white;
+        border: 2px solid white;
         color: #B292FF;
         width: 170px;
-        padding: 12px 0px;
+        padding: 12px 0;
         border-radius: 12px;
 
         a {
@@ -49,4 +70,70 @@
             color: #B292FF;
         }
     }
+}
+
+@media (max-width: 768px) {
+    .secao1 {
+        flex-direction: column; 
+        align-items: center;       
+        gap: 30px; 
+        padding: 20px; 
+
+    .textos {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 36px;  
+        }
+    }
+
+    p{
+        font-weight: 600;
+    } span{
+        font-weight: 600;
+    }
+
+    .logo {
+        img {
+            display: flex;
+            padding-left: 18px;
+            justify-content: center;
+            width: 300px;  
+            align-items: center;
+        }
+    }
+
+    button {
+        width: 100%; 
+        max-width: 170px;  
+        font-weight: 600;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .paragrafo {
+        font-size: 19px;
+        font-weight: 800; 
+
+    }
+
+    .textos {
+        h1 {
+            font-size: 28px; 
+        }
+    }
+
+    .logo {
+        img {
+            width: 250px; 
+        }
+    }
+
+    button {
+        padding: 10px; 
+    }
+}
 }

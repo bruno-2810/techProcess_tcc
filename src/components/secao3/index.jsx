@@ -10,12 +10,12 @@ export default function Secao3() {
                 <h1>Habilidades e conhecimento</h1>
             </div>
             <div className='skills'>
-                <img className='html' src="/images/html_2.webp" alt=""/>
-                <img className='css' src="/images/css-3.webp" alt="" />
-                <img className= 'js' src="/images/script-java.webp" alt="" />
-                <img className='node' src="/images/node-js_1.webp" alt="" />
-                <img className='react' src="/images/react.webp" alt="" />
-                <img className='figma' src="/images/figma.webp" alt="" />
+                <img className='html' src="/images/htmlbranco.png" alt=""/>
+                <img className='css' src="/images/cssbranco.png" alt="" />
+                <img className= 'js' src="/images/jsbranco.png" alt="" />
+                <img className='node' src="/images/nodejsbranco.png" alt="" />
+                <img className='react' src="/images/reactjsx.png" alt="" />
+                <img className='figma' src="/images/figmabranco.png" alt="" />
             </div>        
         </div>
     )

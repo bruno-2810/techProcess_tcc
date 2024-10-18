@@ -3,17 +3,19 @@
     flex-direction: column;
     align-items: center;
     margin-top: 180px;
+    padding: 0 20px; 
 
     h1 {
         margin-top: -1px;
         color: #ffffff;
         font-weight: 10;
+        text-align: center; 
     }
-
 
     .titulo {
         color: #7134FF;
         font-size: small;
+        text-align: center; 
     }
 
     .skills {
@@ -21,42 +23,98 @@
         flex-direction: row;
         gap: 30px;
         margin-top: 20px;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        
+        width: 100%; 
+        max-width: 600px;
 
-        img{
-            background-color: white;
-            background-size: 50%;
+        img {
+            width: 40px; 
+            height: 40px; 
+            background-color: #0c0c0d;
+            background-size: contain; 
             background-position: center;
+            border-radius: 10px; 
         }
 
-        .html {
-            border: 1px #7134FF solid;
-            border-radius: 10px;
-        }
-
-        .css {
-            border: 1px #7134FF solid;
-            border-radius: 10px;
-        }
-
-        .js {
-            border: 1px #7134FF solid;
-            border-radius: 10px;
-        }
-
-        .node {
-            border: 1px #7134FF solid;
-            border-radius: 10px;
-        }
-
-        .react {
-            border: 1px #7134FF solid;
-            border-radius: 10px;
-        }
-
+        .html,
+        .css,
+        .js,
+        .node,
+        .react,
         .figma {
-            border: 1px #7134FF solid;
+            border: 2px #7134FF solid;
             border-radius: 10px;
+            padding: 5px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 60px; 
+            height: 60px;
+            
+            background-color: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease; 
+            
+            a {
+                text-decoration: none;
+                color: inherit; 
+            }
+    
+            &:hover {
+                transform: scale(1.1); 
+                color: whitesmoke
+            }
         }
+    }
+}
 
+
+@media (max-width: 768px) {
+    .secao3 {
+        margin-top: 100px; 
+    }
+
+    .titulo {
+        font-size: 18px; 
+    }
+
+    .skills {
+        gap: 20px; 
+    }
+
+    .html,
+    .css,
+    .js,
+    .node,
+    .react,
+    .figma {
+        width: 50px; 
+        height: 50px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .titulo {
+        font-size: 16px; 
+    }
+
+    .skills {
+        gap: 10px; 
+    }
+
+    .html,
+    .css,
+    .js,
+    .node,
+    .react,
+    .figma {
+        width: 40px; 
+        height: 40px; 
     }
 }

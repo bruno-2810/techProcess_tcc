@@ -5,6 +5,38 @@
     align-items: center;
     color: white;
 
+    .serviços{
+        display: flex;
+        flex-direction: column;
+
+        .cards{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+    }
+
+    p{
+        background-color: transparent; 
+        border: 2px solid #B292FF;
+        width: 600px;
+        height: 60px;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+
+        a {
+            text-decoration: none;
+            color: inherit; 
+        }
+
+        &:hover {
+            border: 2px solid #B292FF;
+            transform: scale(1.1); 
+            color: whitesmoke
+        }
+    }
+
     .roxinho {
         color: #7134FF;
         margin-bottom: 2px;
@@ -12,21 +44,64 @@
     }
 
     h1 {
-        display: flex;
-        flex-direction: column;
         text-align: center;
-        font-weight: 200;
+        font-weight: 200; 
+        margin: 0; 
     }
 
     p {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
         border: 1px solid white;
-        width: 130px;
-        text-align: center;
+        max-width: 100px; 
         padding: 16px;
         border-radius: 12px;
-        margin-left: 145px;
-        margin: 12px;
+        margin: 12px auto; 
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Secao2 {
+        padding: 10px; 
     }
 
+    .roxinho {
+        font-size: 14px; 
+    }
+
+    .serviços {
+        display: flex;
+        flex-direction: column; 
+        font-weight: 600;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 24px; 
+    }
+
+    p {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 26px; 
+        font-weight: 600;
+    }
+
+    .roxinho {
+        font-size: 22px; 
+        font-weight: 600;
+    }
+
+    p {
+        font-weight: 600;
+        padding: 12px; 
+    }
 }
