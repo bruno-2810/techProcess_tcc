@@ -9,7 +9,7 @@ export default function Secao1() {
                 <div className='paragrafo'>
                     <p>Na TechProcess, oferecemos <span>soluções web</span> inovadoras e personalizadas. <br /> Desenvolvemos sites, aplicativos e <span>estratégias digitais</span> que elevam sua <br /> presença online e transformam suas ideias em resultados.</p>
                 </div>
-                <button><a href="#">Ver Serviços</a></button>
+                <button><a href="#servicos">Ver Serviços</a></button>
             </div>
             <div className='logo'>
                 <img src="/images/logo.png" alt="" className='logo-icon' />

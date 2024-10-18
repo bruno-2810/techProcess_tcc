@@ -3,7 +3,7 @@ import './index.scss'
 
 export default function Secao2() {
     return (
-        <div className='Secao2'>
+        <div className='Secao2' id="servicos">
 
             <div className='roxinho'>
                 <h2>Serviços:</h2>

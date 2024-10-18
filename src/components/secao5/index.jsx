@@ -2,7 +2,7 @@ import './index.scss'
 
 export default function Secao5() {
     return(
-        <div className='sobre-nos'>
+        <div className='sobre-nos' id="sobre">
 
             <div className='titulo'>
                  <h1>Sobre Nós</h1> 

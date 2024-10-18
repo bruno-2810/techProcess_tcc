@@ -7,8 +7,8 @@ export default function Cabecalho() {
 <div className='cabecalho'>
         <div className='textos-cabecalho'>
           <a href="#">TechProcess</a>
-          <a href="#">Sobre</a>
-          <a href="#">Serviços</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
         </div>
         <div className='icons-cabecalho'>
           <img src="/images/solar_figma-bold-duotone.png" alt="" />
@@ -16,6 +16,7 @@ export default function Cabecalho() {
           <img src="/images/mdi_linkedin.png" alt="" />
           <img src="/images/material-symbols_mail-rounded.png" alt="" className='email'/>
         </div>
+        
       </div>
     )
 }
