@@ -8,7 +8,7 @@ export default function Secao6() {
             <p>Para mais informações</p>
             <div className='contatos'>
                 <img class = "email" src="/images/emailbranco.png" alt=" "width = "60px" height="60px" />
-                <img class = "zap" src="/images/whatsappbrancow.png" alt=" "width = "60px" height="60px"/>
+                <img class = "zap" src="/images/whatsappbranco.png" alt=" "width = "60px" height="60px"/>
                 <img class = "ig" src="/images/instagrambranco.png" alt=" "width = "60px" height="60px" />
                 <img class = "linkedin" src="/images/linkedinbranco.png" alt=" "width = "60px" height="60px"/>
             </div>
