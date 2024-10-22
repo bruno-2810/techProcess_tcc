@@ -5,6 +5,20 @@
     margin-top: 200px;
     background-color: black;
 
+    
+  animation: txt 1.0s ease-out;
+
+  @keyframes txt {
+      0%{
+          opacity: 0%;
+          transform: translateX(-1500px);
+      }
+      100%{
+          opacity: 100%;
+  }
+}
+
+
     h1 {
         margin-top: 50px;
         color: #fff;

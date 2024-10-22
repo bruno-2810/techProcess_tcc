@@ -4,6 +4,19 @@
     padding: 2px;
     align-items: center;
     color: white;
+    
+  animation: txt 1.0s ease-out;
+
+  @keyframes txt {
+      0%{
+          opacity: 0%;
+          transform: translateX(-1500px);
+      }
+      100%{
+          opacity: 100%;
+  }
+}
+
 
     .serviços{
         display: flex;

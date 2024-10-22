@@ -1,8 +1,34 @@
+// body{
+//     animation: txt 1.0s ease-out;
+
+//     @keyframes txt {
+//         0%{
+//             opacity: 0%;
+//             transform: translateX(-1500px);
+//         }
+//         100%{
+//             opacity: 100%;
+//     }
+// }
+// }
+
 .secao1 {
     display: flex;
     flex-direction: row;
     gap: 180px;
     padding: 30px 80px;
+    animation: txt 1.0s ease-out;
+    margin-top: 70px;
+
+         @keyframes txt {
+             0%{
+                 opacity: 0%;
+                 transform: translateX(-1500px);
+             }
+             100%{
+                 opacity: 100%;
+         }
+     }
 
     span {
         color: #B292FF;
@@ -21,6 +47,17 @@
         display: flex;
         flex-direction: column;
         color: white;
+        animation: txt 1.0s ease-out;
+
+        @keyframes txt {
+            0%{
+                opacity: 0%;
+                transform: translateX(-1500px);
+            }
+            100%{
+                opacity: 100%;
+        }
+    }
 
         h1 {
             font-size: 44px;
