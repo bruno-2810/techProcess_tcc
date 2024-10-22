@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: raleway;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,3 +17,4 @@ code {
   font-family: raleway;
   src: url(../public/fonts/Raleway-Light.ttf);
 }
+
