@@ -11,9 +11,9 @@ export default function Cabecalho() {
         <a href="#servicos">Serviços</a>
       </div>
       <div className='icons-cabecalho'>
-        <a href="https://www.instagram.com/v1ctorbz/profilecard">     <img src="/images/instaroxo.png" alt="" /></a>
+        <a href="https://www.instagram.com/techprocess_/profilecard"><img src="/images/instaroxo.png" alt="" /></a>
         <a href="https://github.com/bruno-2810/techProcess_tcc.git"><img src="/images/mdi_github.png" alt="" /></a>
-        <img src="/images/mdi_linkedin.png" alt="" />
+        <a href="https://www.linkedin.com/in/tech-process-8b86a1335/"><img src="/images/mdi_linkedin.png" alt="" /></a>
         <img src="/images/material-symbols_mail-rounded.png" alt="" className='email' />
       </div>
 
