@@ -1,11 +1,14 @@
 body {
   margin: 0;
   font-family: raleway;
+  padding: 0;
   
 }
 
 html {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 code {
