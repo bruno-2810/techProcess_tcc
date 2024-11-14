@@ -91,6 +91,13 @@
         font-weight: 600;
         gap: 15px;
         padding-left: 20px;
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
     }
 
     h1 {
